@@ -18,22 +18,6 @@ public class DiaUtil {
         this.valor = valor;
     }
 
-    public int getDia() {
-        return dia;
-    }
-
-    public void setDia(int dia) {
-        this.dia = dia;
-    }
-
-    public double getValor() {
-        return valor;
-    }
-
-    public void setValor(double valor) {
-        this.valor = valor;
-    }
-
     public static void main(String[] args) {
         List<DiaUtil> diasUteis = new ArrayList<>();
         JSONParser parser = new JSONParser();
